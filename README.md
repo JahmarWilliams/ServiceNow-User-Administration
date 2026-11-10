@@ -14,7 +14,8 @@ This tutorial explains the process of creating a new user group, adding group me
 
 - Windows 11 Pro
 
-<h2>OBJECTIVE: Create a new user group known as "Strawberry Support" and add members to it.</h2>
+<h2>OBJECTIVE: Create a new user group known as "Strawberry Support" and add members to it. Ensure the group has ITIL roles and permissions. 
+</h2>
 
 
 <p>
