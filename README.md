@@ -3,49 +3,36 @@
 "/>
 </p>
 
-<h1>Microsoft Azure: Managing Accounts (Lockouts and Disabled Accounts)</h1>
-This tutorial explains the process of unlocking a locked user account and re-enabling disabled accounts in Active Directory. <br />
+<h1>ServiceNow User Administration (Managing Users, Groups, and Roles)</h1>
+This tutorial explains the process of creating a new user group, adding group members, and modifying the incident form so it shows a new field.<br />
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+- ServiceNow Personal Developer Instance
 
-<h2>Operating Systems Used </h2>
+<h2>Operating System Used </h2>
 
-- Windows Server 2022
-- Windows 10 (21H2)
+- Windows 11 Pro
 
-<h2>Account Lockout and Unlock/Account Disable and Re-Enable Process</h2>
-
-- Lockout the client account by using the wrong password 10+ times on the Client-VM
-- Login to the Domain Controller VM and open Active Directory Users and Computers
-- Unlock the Account and Reset the Password
-- Login with new password on Client-VM and observe successs
-- Open DC-VM again and disable the same account you just unlocked
-- Attempt to login on the Client-VM and observe that it is locked
-- Reopen the DC-VM and Re-enable the account
-- Login to Client-VM with same account and observe success
-
-<h2>Account Lockout and Unlock/Account Disable and Re-Enable Steps</h2>
+<h2>OBJECTIVE: Create a new user group known as "Strawberry Support" and add members to it.</h2>
 
 <p>
-<img width="241" height="291" alt="image" src="https://github.com/user-attachments/assets/145c11ae-d2f6-4cec-844a-6e753937bca0" />
+<img <img width="1836" height="858" alt="image" src="https://github.com/user-attachments/assets/cbfc278c-1cce-49a3-a7d7-9bd87bb725c9"
+" />
 
 </p>
 <p>
-Open remote desktop and attempt to login to the client-side Virtual Machine running Windows 10. Be sure to use the wrong password and attempt the login 10+ times until you get the notification that the account has been locked. 
+From a fresh PDI instance, navigate to **All>User Administration> Groups.**
 </p>
 <br />
 
 <p>
-<img width="772" height="463" alt="image" src="https://github.com/user-attachments/assets/0fe19388-4aef-496f-a966-9c8abcd9a406" />
+<img <img width="1889" height="864" alt="image" src="https://github.com/user-attachments/assets/7619ad89-e2e3-483e-9e27-8b0b55becb66"
+" />
 
 </p>
 <p>
-Now that the client account is locked, open another instance of remote desktop and sign into the domain controller VM with the admin account. Once in the VM, open "Active Directory Users and Computers" and navigate to the client account using the "Find" feature or navigate normally through the files to whichever group they're in. 
+Open the **Service Desk** record. Select the **Groups** Tab. 
 </p>
 <br />
 
