@@ -1,5 +1,6 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img <img width="3000" height="1887" alt="ServiceNow-Logo" src="https://github.com/user-attachments/assets/2f360ea2-80b9-40d7-a605-9fb0a1055e9f"
+"/>
 </p>
 
 <h1>Microsoft Azure: Managing Accounts (Lockouts and Disabled Accounts)</h1>
