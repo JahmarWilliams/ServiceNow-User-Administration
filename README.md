@@ -22,7 +22,7 @@ This tutorial explains the process of creating a new user group, adding group me
 
 </p>
 <p>
-From a fresh PDI instance, navigate to **All>User Administration> Groups.**
+From a fresh PDI instance, navigate to All>User Administration> Groups.
 </p>
 <br />
 
@@ -32,17 +32,24 @@ From a fresh PDI instance, navigate to **All>User Administration> Groups.**
 
 </p>
 <p>
-Open the **Service Desk** record. Select the **Groups** Tab. 
+Open the Service Desk record. Select the Groups Tab. Select New to add a new group to Service Desk. 
 </p>
 <br />
 
 <p>
-<img width="425" height="534" alt="image" src="https://github.com/user-attachments/assets/91e10c22-cf3c-4adb-94d8-ec77b3a43b97" />
-<img width="358" height="241" alt="image" src="https://github.com/user-attachments/assets/9174b314-2196-4149-89ed-b9e291f3e829" />
+<img <img width="1849" height="755" alt="image" src="https://github.com/user-attachments/assets/7b2f7f56-9994-4709-a403-7273344533eb"
+ />
+
 
 </p>
 <p>
-Double click on the client name to open the properties panel. Once there, navigate to the "account" tab and select unlock account. This will unlock the account and allow another login attempt. If a password reset is needed, you can also go back to the user account in the find tab and right click to bring up a list of options. Once there, you can select reset password to wipe their current password and assign them a new one. 
+Populate the record as follows: 
+  
+-Name: Strawberry Support
+
+-Manager: Fred Luddy
+
+Select the Additional Options Menu, then select Save.
 </p>
 <br />
 
